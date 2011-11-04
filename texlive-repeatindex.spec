@@ -46,6 +46,7 @@ which main item a subitem belongs.
 %{_texmfdistdir}/tex/latex/repeatindex/repeatindex.sty
 %doc %{_texmfdistdir}/doc/latex/repeatindex/README
 %doc %{_texmfdistdir}/doc/latex/repeatindex/testrepeatindex.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +57,5 @@ which main item a subitem belongs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
