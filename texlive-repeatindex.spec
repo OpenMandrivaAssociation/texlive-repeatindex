@@ -47,3 +47,17 @@ which main item a subitem belongs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.01-2
++ Revision: 755660
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.01-1
++ Revision: 719450
+- texlive-repeatindex
+- texlive-repeatindex
+- texlive-repeatindex
+- texlive-repeatindex
+
