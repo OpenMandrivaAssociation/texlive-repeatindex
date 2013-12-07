@@ -6,7 +6,7 @@
 # catalog-version 0.01
 Name:		texlive-repeatindex
 Version:	0.01
-Release:	4
+Release:	5
 Summary:	Repeat items in an index after a page or column break
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/repeatindex
