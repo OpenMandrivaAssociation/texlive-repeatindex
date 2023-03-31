@@ -1,6 +1,6 @@
 Name:		texlive-repeatindex
 Version:	24305
-Release:	1
+Release:	2
 Summary:	Repeat items in an index after a page or column break
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/repeatindex
