@@ -3,7 +3,7 @@ Version:	24305
 Release:	2
 Summary:	Repeat items in an index after a page or column break
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/repeatindex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/repeatindex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/repeatindex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/repeatindex.doc.r%{version}.tar.xz
